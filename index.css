@@ -1,5 +1,16 @@
 .Main_Title {
-  text-align: center;
-  font-size: 200%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #393939;
+    background-color: #F7EEBD;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Main_Headers {
+    color: #393939;
+    text-align: left;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
