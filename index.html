@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+---
+---
 <html>
 
   <!HEADING BELOW>
@@ -15,24 +16,8 @@
   <!BODY BELOW>
 
   <body>
-    <div class="dropdown"  onclick="window.location.href = 'index.html';">
-      <button class = "dropbtn">Home</button>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Schedule</button>
-          <div class="dropdown-content">
-            <a href="masterschedule.html" target="_blank">Master Schedule</a>
-            <a href="memberschedule.html" target="_blank">Member Schedule</a>
-            <a href="eventschedule.html" target="_blank">Event Schedule</a>
-        </div>
-      </div>
-    <div class="dropdown">
-      <button class="dropbtn">External Websites</button>
-        <div class="dropdown-content">
-          <a href="https://www.riseagainsthunger.org/" target="_blank">Rise Agaisnt Hunger</a>
-          <a href="https://gm.fccps.org/" target="_blank">GMHS Website</a>
-      </div>
-    </div>
+
+      {% include dropdown.html %}
 
 
     <div class="Main_Title">
