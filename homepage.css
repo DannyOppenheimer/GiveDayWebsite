@@ -17,18 +17,19 @@
     width: 100%;
 }
 
+
 .centered button {
-    background-color: orange; /* Green */
-    border: none;
-    color: white;
-    padding: 30px 64px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
     outline: none;
-    opacity: 0.5;
-}
+    padding: 40px 80px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    background: rgb(231, 166, 0.4, 0.4); 
+     color:rgba(255, 255, 255, 1.0);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 40px;
+  }
 
 .container .image {
     opacity: 0.5;
