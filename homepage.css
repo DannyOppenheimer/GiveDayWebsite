@@ -1,18 +1,25 @@
-.Main_Title {
+.container {
     position: relative;
-    z-index: 1;
+    text-align: center;
+    color: white;
 }
 
-.Main_Title .bg {
+.centered {
     position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(Banner.jpg) center center;
-    opacity: .4;
-    background-size: auto 700px;
-    height: 100%;
-    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -43px;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container .image {
+    opacity: 0.5;
+    filter: blur(3px);
+    height: auto;
+    width: 2660px;
 }
