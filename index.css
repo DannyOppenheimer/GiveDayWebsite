@@ -92,3 +92,26 @@ a.homebtn {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: darkblue;}
+
+  body {
+    backgrond: #c1c1c1;
+  }
+
+  .dropdownmenu, .dropdownmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .dropdownmenu {
+    width: 900px;
+    margin: 50px auto;
+    background-color: #E04818;
+    border-radius: 6px;
+  }
+
+  .dropdownmenu:before,
+  .dropdownmenu:after{
+    content: '';
+    display: table;
+  }
