@@ -1,4 +1,4 @@
-# JQ YOU BETTER NOT FRICK IT UP KID JEKYLL WORKING ON MY COMPUTER THO
+# GMHS Give Day Club
 
 > Website for the George Mason High School Club "Give Day"
 
