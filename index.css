@@ -17,9 +17,9 @@ body {
 
 .Main_Headers {
     margin: 10px;
-    color: white;
-    text-align: left;
-    font-size: 130%;
+    color: grey;
+    text-align: center;
+    font-size: 160%;
     font-weight: bold;
 }
 
