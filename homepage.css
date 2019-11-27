@@ -10,16 +10,29 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: -43px;
-    color: white;
+    color: gray;
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: bold;
     width: 100%;
 }
 
+.centered button {
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    outline: none;
+    opacity: 0.5;
+}
+
 .container .image {
     opacity: 0.5;
-    filter: blur(3px);
+    filter: blur(3px)  contrast(0.6);
     height: auto;
     width: 2660px;
 }

@@ -4,16 +4,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Main_Title {
-    margin-top: -43px;
-    color: white;
-    text-align: center;
-    font-size: 200%;
-    font-weight: bold;
-    width: 100%;
-    
-}
-
 .Bottom {
   text-align: center;
   font-size: 20%;
@@ -23,6 +13,10 @@ body {
   width: 100%;
   margin-bottom: -10px;
 }
+
+
+
+
 
 /* Home Button Link Styling */
 
