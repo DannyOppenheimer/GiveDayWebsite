@@ -1,22 +1,25 @@
 ---
+layout: default
+title: Home
+description: The Home page for the GIVE Day club at George Mason High School
+stylesheets: 
+- index
+scripts:
+- index
 ---
-<html>
-
-  <!HEADING BELOW>
-
-  {% include header.html %}
-  <!BODY BELOW>
-  <body>
-
-    {% include dropdown.html %}
-
-
+<main>
+    {% include head.html %}
     <div class="mainimage">    
       <div class="image"><img src="Banner.jpg" alt="GiveDay" style="width:100%;"></div>
       <div class="centered"><button>GMHS Give Day</button></div>
     </div>
-
-    {% include footer.html %}
     
-  </body>
-</html>
+    <p></p>
+    
+    <div class="info">
+      <p></p>
+      <h1></h1>
+      <h5></h5>
+    </div>
+    {% include footer.html %}
+</main>
