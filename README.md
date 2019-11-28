@@ -2,4 +2,4 @@
 
 > Website for the George Mason High School Club "Give Day"
 
-## money for da broke
+## Our mission is to help those in less fortunate conditions than ourselves.

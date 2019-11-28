@@ -1,15 +1,17 @@
 <header>
     <img>
     <nav>
-        <a href="/">Home</a>
-        <a href="{{ site.baseurl }}/donate">Donate</a>
-        <span class="">
+        <a class="nav-item link" href="/">Home</a>
+        <a class="nav-item link" href="{{ site.baseurl }}/donate">Donate</a>
+        <span class="nav-item">
             Schedule
             <ul class="nav-dropdown">
-
+                <li><a href="{{ site.baseurl }}/event-schedule"></a>Event Schedule</li>
+                <li><a href="{{ site.baseurl }}/master-schedule"></a>Master Schedule</li>
+                <li><a href="{{ site.baseurl }}/member-schedule"></a>Member Schedule</li>
             </ul>
         </span>
-        <span class="header-dropdown">
+        <span class="nav-item">
             External Websites
             <ul class="nav-dropdown">
                 <li><a href="https://www.riseagainsthunger.org/" target="_blank">Rise Against Hunger</a></li>

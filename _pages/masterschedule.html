@@ -2,30 +2,23 @@
 layout: default
 title: Master Schedule
 description: The Master Schedule page for the GIVE Day club at George Mason High School
-stylesheets: 
-- index
+permalink: /master-schedule
+stylesheets:
+- schedule
 scripts:
 - index
 ---
-<html>
+<main>
 
-  <!HEADING BELOW>
-
-  {% include head.html %}
-
-  <!BODY BELOW>
-
-  <body>
-
-    {% include dropdown.html %}
-
-    <div class="Main_Title">
-      <h1>GMHS Give Day Club Master Schedule</h1>
-    </div>
-    <div class="Main_Headers">
-      <h3 style="text-align: center">Master Schedule:</h3>
-    </div>
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=aW4zdWJyYTAzcHFkbXI4b2VoOWJqMTBlMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2330487E&amp;color=%231F753C&amp;showTitle=0" style="border-width:0" syle ="float:center" width="800" height="600" frameborder="0" scrolling="no" align:"center"></iframe>
-    {% include footer.html %}
-  </body>
-</html>
+  <div class="Main_Title">
+    <h1>GMHS Give Day Club Master Schedule</h1>
+  </div>
+  <div class="Main_Headers">
+    <h3 style="text-align: center">Master Schedule:</h3>
+  </div>
+  <iframe
+    src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=aW4zdWJyYTAzcHFkbXI4b2VoOWJqMTBlMDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2330487E&amp;color=%231F753C&amp;showTitle=0"
+    style="border-width:0" style="float:center" width="800" height="600" frameborder="0" scrolling="no"
+    align:"center"></iframe>
+  {% include footer.html %}
+</main>

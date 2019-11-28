@@ -10,3 +10,8 @@ table, th, td {
 th.date {
     text-align: center
 }
+
+iframe {
+  margin-left: auto;   /* Automatic margin from left */
+  margin-right: auto; /* Automatic margin from right */
+} 
