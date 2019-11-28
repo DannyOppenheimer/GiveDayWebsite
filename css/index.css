@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: mintcream;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -14,6 +13,13 @@ body {
   margin-bottom: -10px;
 }
 
+.info {
+  background-color: mintcream;
+}
+
+.info > *:last-child {
+  margin-bottom: 0px;
+}
 
 #banner {
   position: relative;
@@ -23,21 +29,33 @@ body {
 }
 
 #background {
-  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#background::before {
+  content: '';
+  position: fixed;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   left: 0;
   top: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url('/assets/images/Banner.jpg');
-  background-color: transparent;
-  background-attachment: fixed;
+  background-image: url('/assets/images/Banner-Cropped.jpg');
+  background-position: top left;
   background-size: cover;
   filter: blur(3px) contrast(0.6);
   top: -15px; /* Cuts of white glowy line at the top of image */
   left: -15px; /*^ Same for left ^*/
   right: -15px;
   bottom: -15px;
+  will-change: transform;
   border: 10px solid transparent;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .container {
