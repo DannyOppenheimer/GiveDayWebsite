@@ -44,7 +44,7 @@ a.homebtn {
   .dropdown {
     position: relative;
     display: inline-block;
-
+    background-color: white;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -118,3 +118,4 @@ iframe {
   display: inline-block;
   color: gray;
 }
+
