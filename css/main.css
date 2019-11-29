@@ -31,7 +31,7 @@ nav a {
 }
 
 .nav-item:hover {
-    background-color: gray;
+    background-color: rgb(196, 196, 196);
 }
 
 .nav-item:hover .nav-dropdown {
@@ -42,7 +42,7 @@ nav a {
 .nav-dropdown {
     display: none;
     position: absolute;
-    background-color: gray;
+    background-color: rgb(196, 196, 196);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     padding-inline-start: 0px;
     text-align: center;
@@ -54,19 +54,25 @@ nav a {
     z-index: 1000000;
     text-decoration: none;
     list-style-type: none;
+    border-radius: 3px;
+
 }
 
 .nav-dropdown li {
     width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nav-dropdown a {
     text-decoration: none;
     color: black;
+    
 }
 
 .nav-dropdown li:hover {
-    background-color: black;
+    background-color: rgb(119, 98, 98);
+    border-radius: 3px;
 }
 
 footer {
